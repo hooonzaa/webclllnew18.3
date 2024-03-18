@@ -1,0 +1,96 @@
+.day{
+    width: 300px;
+  border: 15px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  }
+  .h1{
+    text-decoration: underline;
+  }
+
+.Michal{
+justify-content: center;
+display: flex;
+flex-direction: row;
+}
+
+
+
+
+.Custom {
+display: flex;
+justify-content: center;
+
+}
+
+.Login {
+display: flex;
+justify-content: center;
+color: rgb(42, 42, 44);
+
+}
+.uname input[type="text"],
+.Psw input[type="password"],
+.cnf input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to center, #000000, #ffffff);
+    color: rgb(0, 0, 0); 
+}
+
+
+.Button {
+display: flex;
+justify-content: center;
+margin-right: 10px;
+
+}
+
+.Button button {
+padding: 10px 20px;
+font-size: 16px;
+border: 2px solid #007bff;
+border-radius: 5px;
+background-color: #007bff;
+color: white;
+cursor: pointer;
+outline: none;
+}
+
+.Border {
+border: black 1px solid;
+max-width: 300px;
+margin: 0 auto;
+border-radius: 5px;
+box-shadow: 3px;
+animation: changeBgColor 5s infinite;
+background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+
+
+.Border :hover{
+transition: all 1s ease-in-out;
+border-radius: 5%;
+}
+.card{
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+.hur button{
+  background-color: #000000;
+  color: aliceblue;
+  border-radius: 5px;
+
+}
+.trainer button{
+  background-color: #007bff;
+  color:white ;
+  border:  none;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}

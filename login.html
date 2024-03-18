@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.JS"></script>
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css
+" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="hur">
+        <button type="button" onclick="Home()">HOME</button>
+    </div>
+    
+  <div class="Border">
+    <div class="Login">
+        <h1>Login</h1>
+    </div>
+    <div class="Custom">
+        <form id="loginForm"> 
+            <div class="container">
+                <div class="uname">
+                <input type="text" id="Uname" placeholder="Username" required><br>
+            </div>
+                <div class="Psw">
+                    <input type="password" id="Pswrt" placeholder="Password" required><br>
+                </div>
+                <div class="cnf">
+                    <input type="password" id="cnfrmPswrt" placeholder=" ConfirmPswrt" required><br>
+                </div>
+           
+                <div class="Button">
+                    <button type="button" onclick="checkLogin()">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+  </div>
+</body>

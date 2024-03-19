@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.JS"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
-<body id="body">
-  <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
-
+<body>
   <script src="script.js"></script>
 <div class="background">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -22,12 +22,15 @@
         <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="plán.html">Fitness Plan</a>
+        <a class="nav-link" href="tričko.html">T-shirt</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="gym.html">Aktivity</a>
+        <a class="nav-link" href="jumper.html">Jumpers</a>
         <li class="nav-item">
-            <a class="nav-link" href="goals.html">Cíle</a>
+            <div class="jojo">
+                <body id="body">
+                  <button onclick="DarkMode()"> Dark Mode</button>
+                </div>
           </li>
       </li>
       <li class="nav-item">
@@ -36,35 +39,63 @@
     </ul>
   </div>
 </nav>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://www.vedantu.com/seo/content-images/2aa31339-1179-4829-ab45-1555c4092e3d.png" alt="First slide">
+      <img src="https://st.depositphotos.com/2103661/2219/i/450/depositphotos_22198091-stock-photo-rainbow-colors-clothes-on-wooden.jpg" class="d-block w-100" alt=auto>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://st.depositphotos.com/2103661/2219/i/450/depositphotos_22198091-stock-photo-rainbow-colors-clothes-on-wooden.jpg" alt="Second slide">
+      <img src="https://img.freepik.com/free-vector/summer-clothes-set_74855-446.jpg"class="d-block w-100" alt=auto>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://img.freepik.com/free-vector/summer-clothes-set_74855-446.jpg" alt="Third slide">
+      <img src="https://www.vedantu.com/seo/content-images/2aa31339-1179-4829-ab45-1555c4092e3d.png" class="d-block w-100" alt=auto>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-
-
-
+<div class="Michal">
+  <div class="card" style="width: 18rem;">
+      <img src="https://cdn.myshoptet.com/usr/www.fotbaldresy.cz/user/shop/big/881-2_mk-foto-fortnite-1.jpg?618fb344" class="card-img-top" width="10rem">
+      <div class="card-body">
+        <h5 class="card-title">Mikina Fortnite</h5>
+        <p class="card-text">Buy for 1000€</p>
+        <a href="..." class="btn btn-primary">Buy</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigOpBF9tYn0tUNwGytxPRy30o5rze4ZxvhaA1r2t36A&s" class="card-img-top" width="10rem" >
+      <div class="card-body">
+        <h5 class="card-title">Tričko Čau</h5>
+        <p class="card-text">Buy for 200€</p>
+        <a href="..." class="btn btn-primary">Buy</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i00.eu/img/422/1024x1024/en5e56jh/74918.jpg" class="card-img-top" width="10rem">
+      <div class="card-body">
+        <h5 class="card-title">Tričko</h5>
+        <p class="card-text">Buy for 100€</p>
+        <a href="..." class="btn btn-primary">Buy</a>
+      </div>
+    </div>
+  
+  </div>
+  
+<footer>
+  <div class="michal">
+<h1>CONTACT</h1><br>
+<p>+420 736-718-047</p><br>
+<a href="https://www.instagram.com/michal_3011/"><img
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+  height="30px" width="auto"></a></p></div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -111,3 +111,9 @@ footer{
   display: flex;
 justify-content: center;
 }
+.loginbb{
+    background-color: #787ce4;
+}
+.checked {
+    color: orange;
+  }

@@ -1,5 +1,5 @@
 const validCredentials = [
-    "petr.ahoj",
+    "petrrr.ahojjjjj",
     "jana.pizza2",
     "karel.kočka3",
     "eva.12345",
@@ -28,7 +28,12 @@ const validCredentials = [
         return;
     }
   
-  
+if    (validCredentials.includes(enteredUsername + "." +  enteredPassword)){ 
+    displayError("Used", "Please enter new username and password.")
+    return
+    
+    }
+
     const foundUser = enteredUsername < 5  + "." + enteredPassword < 7;
     if (enteredPassword + enteredUsername.includes(foundUser)) {
          console.log("Login successful.");
@@ -70,3 +75,20 @@ const validCredentials = [
     function Home(){
   window.location.href = "home.html"
     }
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const stars = document.querySelectorAll('.fa-star');
+  
+    stars.forEach(function (star) {
+      star.addEventListener('click', function () {
+        if (this.classList.contains('checked')) {
+          this.classList.remove('checked');
+        } else {
+          this.classList.add('checked');
+        }
+      });
+    });
+  });
+  
